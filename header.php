@@ -10,10 +10,11 @@
     
 </head>
 <body <?php body_class()?>>
-    <header class="menu">
-        <nav>
-            <ul>
-                <li><a href="/">Inici</a></li>
-            </ul>
+    <div class="header">
+        <nav class="nav">
+            <a class="nav-link active" href="/">Home</a>
+            <a class="nav-link" href="?page_id=20">Blog</a>
+            <a class="nav-link" href="?page_id=13">Sobre</a>
+            <a class="nav-link" href="?page_id=15">Contacto</a>
         </nav>
-    </header>
+    </div>
